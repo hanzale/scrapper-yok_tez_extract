@@ -13,3 +13,4 @@ for file in files:
 	dataframes.append(new_df)
 df = pd.concat(dataframes)
 df.to_html('output.html')
+utils.save_var(df,'final_dataframe')
