@@ -19,6 +19,6 @@ for i in years_needed:
 	try:
 		scrapper_ilk.main_scrap(i)
 	except:
-		print(str(yil)+' hata')
+		print(str(i)+' hata')
 		pass
 
